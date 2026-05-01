@@ -1,0 +1,100 @@
+.footer {
+   padding: 20px 50px;
+   background-color: #3e4a67;
+   display: grid;
+   grid-template-areas:
+      "logo menu menu"
+      "title title title"
+      "contact contact contact"
+      "link link link";
+   place-items: center;
+
+   &__logotype {
+      grid-area: logo;
+      justify-self: start;
+   }
+
+   &__menu {
+      grid-area: menu;
+   }
+
+   &__title {
+      color: rgb(221, 115, 73);
+      grid-area: title;
+      margin-bottom: 20px;
+   }
+
+   &__contact {
+      grid-area: contact;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   &__contact-item {
+      text-decoration: none;
+      color: #0a0a0a;
+      font-weight: 700;
+
+      &:not(:last-child) {
+         margin-bottom: 20px;
+      }
+
+      &:hover {
+         animation: animationContacts ease-in-out 1.5s infinite;
+      }
+
+      &--tel::before {
+         content: "";
+         display: inline-block;
+         width: 23px;
+         height: 30px;
+         background-image: url("../img/telephon.svg");
+         background-size: cover;
+         margin-right: 10px;
+         vertical-align: middle;
+      }
+
+      &--email::before {
+         content: "";
+         display: inline-block;
+         width: 30px;
+         height: 23px;
+         background-image: url("../img/email.svg");
+         background-size: cover;
+         margin-right: 10px;
+         vertical-align: middle;
+      }
+
+      &--local::before {
+         content: "";
+         display: inline-block;
+         width: 17px;
+         height: 23px;
+         background-image: url("../img/local.svg");
+         background-size: cover;
+         margin-right: 10px;
+         vertical-align: middle;
+      }
+   }
+
+
+   &__social-link {
+      grid-area: link;
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+   }
+
+   &__social-item {
+      font-size: 30px;
+      color: rgb(221, 115, 73);
+      transition: all linear .5s;
+
+      &:hover {
+         transform: scale(1.4);
+         z-index: 1;
+       filter: drop-shadow(0 0 10px rgba(0, 0, 58, 0.9));
+      }
+   }
+}

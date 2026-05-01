@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/styleSingle.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <link rel="icon" href="../img/favicon.avif" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/d4e4f78109.js" crossorigin="anonymous"></script>
+  <title>FAMILY ROOM</title>
+</head>
+
+<body>
+    <a class="arrow" href="#fixed" title="up">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    
+    <div class="background-img">
+
+        <header class="header" id="fixed">
+            <a class="logotype" href="../img/logo.png">
+                <img src="../img/logo.png" alt="logotype Luxury Hotel" width="170px" height="67px">
+            </a>
+
+              <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="index.html">HOME</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#exp">DISCOVER</a>
+                    </li>
+                    <li class="menu__item menu__item--has-dropdown">
+                        <a class="menu__link" href="#exp">ROOMS</a>
+                        <ul class="menu__dropdown-list">
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="./indexSingle.html">single suite</a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="./indexRomantic.html">romantic
+                                    suite</a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="./indexFamily.html">family room</a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="./indexPremium.html">premium suite</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#services">SERVICES</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#facilitiesLink">FACILITIES</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#attractionLink">ATTRACTION</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#contacts">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <section class="primary" aria-label="primary block">
+                <span class="primary__text">INDOOR &amp; OUTDOOR</span>
+                <h1 class="primary__title">FAMILY ROOM</h1>
+                <a class="primary__linkRooms" href="#exp" aria-label="link to apartments" title="link to apartments">
+                    ROOMS &amp; SUITES
+                </a>
+
+                  <form class="booking" aria-label="booking block">
+                <input class="booking__input" type="text" name="name" id="userName" placeholder="Your Name" aria-label="Your name">
+                <select class="booking__select" name="apartments" aria-label="Room type">
+                    <option value="single suite">single suite</option>
+                    <option value="romantic suite">romantic suite</option>
+                    <option value="family room">family room</option>
+                    <option value="premium suite">premium suite</option>
+                </select>
+                <input class="booking__input" type="email" name="email" id="userEmail" placeholder="Email" aria-label="Email address">
+                <input class="booking__input" type="number" name="guests" id="userGuests" min="1" max="10" step="1" placeholder="Number of rooms" aria-label="Number of guests">
+                <input class="booking__input" type="tel" name="tel" id="userTel" placeholder="Phone number" aria-label="Phone number">
+                <input class="booking__input" type="date" name="dateFirst" id="userDateFirst" placeholder="check-in date" aria-label="check-in date">
+                <input class="booking__input" type="date" name="dateSecond" id="userDateSecond" placeholder="departure date" aria-label="departure date">
+                <button class="booking__btn" type="submit">Book Now</button>
+            </form>
+
+            </section>
+
+          
+    </div>
+
+
+  <section class="suite-info">
+    <div class="suite-info__img">
+      <img class="suite-info__image" src="../img/familyRoom.jpg" alt="family room" title="family room">
+    </div>
+
+
+    <div class="containerSI">
+      <div class="icons">
+        <ul class="icons__list">
+          <li class="icons__List-item">
+            <i class="fa-solid fa-tv" title="TV"></i>
+            <span>Cable TV</span>
+          </li>
+          <li class="icons__list-item">
+            <i class="fa-solid fa-bath" title="bath"></i>
+            <span>Bath</span>
+          </li>
+          <li class="icons__list-item">
+            <i class="fa-solid fa-wifi" title="Wifi"></i>
+            <span>Free Wifi</span>
+          </li>
+          <li class="icons__list-item">
+            <i class="fa-solid fa-martini-glass" title="gift"></i>
+            <span>Gift</span>
+          </li>
+          <li class="icons__list-item">
+          <i class="fa-solid fa-bed" title="bedroom"></i>
+            <span>King bed</span>
+          </li>
+          <li class="icons__list-item">
+            <i class="fa-solid fa-water" title="sea view"></i>
+            <span>Sea view</span>
+          </li>
+        </ul>
+      </div>
+
+
+      <h3 class="suite-info__heading">Room Overview</h3>
+      <p class="suite-info__text">
+        Experience the ultimate family getaway in our spacious suite, offering separate sleeping areas and a shared living space for quality time together.
+      </p>
+
+      <h3 class="suite-info__title">Bed &amp; Bath</h3>
+      <ul class="suite-info__list">
+        <li>Bedroom 1&#58; One king&#8208;size bed &#40;180 cm&#41; with premium mattress</li>
+        <li>Bedroom 2&#58; Two single beds &#40;90 cm each&#41; OR one bunk bed</li>
+      </ul>
+      <p class="suite-info__text">Bathroom&#58; Two bathrooms &#40;one en&#8208;suite, one guest bathroom&#41; – no more morning queues! A spacious marble bathroom equipped with a rainfall shower
+        and a separate deep&#8208;soaking bathtub. Complimentary organic toiletries, plush
+        bathrobes, and slippers are provided.</p>
+
+      <h3 class="suite-info__title">Amenities & Technology</h3>
+      <ul class="suite-info__list">
+        <li>High&#8208;Speed Wi&#8208;Fi&#58; Free unlimited internet access for up to 5
+          devices.</li>
+        <li>Entertainment&#58; A 55&#8208;inch 4K Smart TV with international satellite
+          channels and Chromecast streaming.</li>
+        <li>Climate Control&#58; Individual air conditioning and heating system with
+          a digital thermostat.</li>
+        <li>Work Desk&#58; An ergonomic workspace with multiple power outlets
+          &#40;universal sockets&#41; and a reading lamp.</li>
+      </ul><br>
+
+      <h3 class="suite-info__title">In&#8208;Room Features</h3>
+      <ul class="suite-info__list">
+        <li>Mini&#8208;bar with selected soft drinks and snacks &#40;charges apply&#41;</li>
+        <li>Nespresso coffee machine with complimentary capsules</li>
+        <li>Electric kettle with a selection of premium teas</li>
+        <li>Digital safe &#40;fits up to a 15&#8208;inch laptop&#41;</li>
+        <li>Iron and ironing board upon request</li>
+        <li>Blackout curtains for undisturbed sleep</li>
+      </ul>
+
+      <h3 class="suite-info__title">View</h3>
+      <p class="suite-info__text">Enjoy breathtaking sunrise or glittering city lights from your private
+        window&#8208;side seating area.</p>
+
+    </section>
+    </main>
+ 
+    <footer class="footer">
+        <div class="footer__block-logo-menu">
+        <a class="footer__logotype logotype" href="index.html" title="link to main page">
+            <img src="../img/logo.png" alt="logotype Luxury Hotel" width="170px" height="67px">
+        </a>
+
+       <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="../html/index.html">HOME</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#exp">DISCOVER</a>
+                    </li>
+                    <li class="menu__item menu__item--has-dropdown">
+                        <a class="menu__link" href="#exp">ROOMS</a>
+                        <ul class="menu__dropdown-list">
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="indexSingle.html">single suite</a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="indexRomantic.html">romantic
+                                    suite</a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="indexFamily.html">family room</a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="indexPremium.html">premium suite</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#services">SERVICES</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#facilitiesLink">FACILITIES</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#attractionLink">ATTRACTION</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#contacts">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+ 
+        <div class="footer__block-title-contacts">
+        <h2 class="footer__title">Get In Touch</h2>
+        <div class="footer__contact" id="contacts">
+            <a class="footer__contact-item footer__contact-item--tel" href="tel:+11234567890" title="phone">+11234567890</a>
+            <a class="footer__contact-item footer__contact-item--email" href="mailto:info@yourhotel.com" title="email">info@yourhotel.com</a>
+            <a class="footer__contact-item footer__contact-item--local" href="https://yandex.by/maps/-/CPvZrL93" title="local">Park
+                Avenue 432, New York, NY,
+                10029, United States of America</a>
+        </div>
+        
+        
+        <div class="footer__social-link">
+            <a class="footer__social-item footer__social-item--i" href="https://www.instagram.com/hotel_usa_luxury?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" title="link to instagram" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a class="footer__social-item  footer__social-item--vk" href="https://vk.com/rixos.hotels" title="link to vk" target="_blank"><i
+                    class="fa-brands fa-vk"></i>
+                </a>
+            <a class="footer__social-item footer__social-item--f" href="https://www.facebook.com/luxuryhotelassociation/" title="link to facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        </div>
+       
+    </footer>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

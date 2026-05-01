@@ -1,0 +1,76 @@
+.enjoy {
+   display: grid;
+   grid-template-columns: 1fr minmax(600px, 1fr);
+   gap: 30px;
+   padding: 0 0 0 50px;
+
+   &__left {
+      grid-column: 1/2;
+      display: grid;
+      grid-template-areas:
+         "span span"
+         "title title"
+         "spa massage"
+         "pool music"
+         "restaurant skiing";
+      gap: 20px;
+      padding-bottom: 50px;
+   }
+
+   &__accent {
+      grid-area: span;
+      margin-top: 50px;
+   }
+
+   &__title {
+      grid-area: title;
+      margin: 0;
+   }
+
+   &__block {
+      border-bottom: 1px solid grey;
+
+      &:nth-last-of-type(-n+2) {
+         border-bottom: none;
+      }
+   }
+
+   &__block-text {
+      font-size: 15px;
+      margin-top: 10px;
+   }
+
+   &__block--spa {
+      grid-area: spa;
+   }
+
+   &__block--massage {
+      grid-area: massage;
+   }
+
+   &__block--pool {
+      grid-area: pool;
+   }
+
+   &__block--music {
+      grid-area: music;
+   }
+
+   &__block--restaurant {
+      grid-area: restaurant;
+   }
+
+   &__block--water-skiing {
+      grid-area: skiing;
+   }
+
+   &__img {
+      grid-column: 2/3;
+      width: 100%;
+   }
+
+   &__image {
+      width: 100%;
+      height: 100%;
+   }
+}

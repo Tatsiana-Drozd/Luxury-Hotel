@@ -1,0 +1,51 @@
+.booking {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   padding: 50px;
+   gap: 20px;
+   background-color: rgba(225, 146, 97, 0.5);
+
+   &:hover {
+      background-color: rgba(239, 214, 89, 0.601);
+      box-shadow: 0 0 10px rgba(172, 187, 198, 0.8);
+   }
+
+      &__input {
+      color: $secondary-color;
+      border-color: rgb(200, 142, 7);
+      padding: 5px;
+      transition: all linear .5s;
+   
+         &:hover,
+         &:focus {
+         border-color: rgb(165, 226, 33);
+         box-shadow: 0 0 10px rgba(0, 0, 32, 0.8);
+         transition: all linear .5s;
+         outline: none;
+      }
+   }
+
+      &__select {
+         color: $secondary-color;
+         border-color: rgb(200, 142, 7);
+         padding: 5px;
+         transition: all linear .5s;
+
+         &:hover,
+         &:focus {
+            border-color: rgb(165, 226, 33);
+            box-shadow: 0 0 10px rgba(0, 0, 32, 0.8);
+            transition: all linear .5s;
+            outline: none;
+         }
+      }
+
+      &__btn {
+         background-color: #18bd91;
+         border-color: #24c197;
+         transition: all linear .8s;
+            &:hover {
+            animation: myAnimationBtn 1.5s infinite;
+         }
+      }
+   }

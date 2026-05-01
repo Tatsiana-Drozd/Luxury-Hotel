@@ -1,0 +1,29 @@
+@keyframes myAnimationBtn {
+   from {
+      background-color: #18bd91;
+      color: black;
+   }
+
+   to {
+      background-color: white;
+      color: #18bd91;
+   }
+}
+
+@keyframes headingColorFlow {
+   0% {
+      color: #707070;
+   }
+
+   50% {
+      color: #794878;
+   }
+
+   75% {
+      color: #51445b;
+   }
+
+   100% {
+      color: #50147b;
+   }
+}
