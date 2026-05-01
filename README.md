@@ -1,2 +1,2 @@
-# Luxury-Hotel
+Luxury Hotel
 Luxury Hotel
