@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/favicon.avif" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d4e4f78109.js" crossorigin="anonymous"></script>
+    <title>LUXURY HOTEL</title>
+</head>
+
+<body>
+    <a class="arrow" href="#fixed" title="up">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <div class="background-img">
+
+        <header class="header" id="fixed">
+            <a class="logotype" href="index.html">
+                <img src="../img/logo.png" alt="logotype Luxury Hotel"  width="170px" height="67px">
+            </a>
+
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="../html/index.html">HOME</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#disc">DISCOVER</a>
+                    </li>
+                    <li class="menu__item menu__item--has-dropdown">
+                        <a class="menu__link" href="#exp">ROOMS</a>
+                        <ul class="menu__dropdown-list">
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="indexSingle.html">single suite</a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="indexRomantic.html">romantic
+                                    suite</a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="indexFamily.html">family room</a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="indexPremium.html">premium suite</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#services">SERVICES</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#facilitiesLink">FACILITIES</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#attractionLink">ATTRACTION</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#contacts">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <section class="primary" aria-label="primary block">
+                <span class="primary__text">INDOOR &amp; OUTDOOR</span>
+                <h1 class="primary__title">ENJOY A LUXURY EXPERIENCE</h1>
+                <a class="primary__linkRooms" href="#exp" aria-label="link to apartments" title="link to apartments">
+                    ROOMS &amp; SUITES
+                </a>
+
+                  <form class="booking" aria-label="booking block">
+                <input class="booking__input" type="text" name="name" id="userName" placeholder="Your Name" aria-label="Your name">
+                <select class="booking__select" name="apartments" aria-label="Room type">
+                    <option value="single suite">single suite</option>
+                    <option value="romantic suite">romantic suite</option>
+                    <option value="family room">family room</option>
+                    <option value="premium suite">premium suite</option>
+                </select>
+                <input class="booking__input" type="email" name="email" id="userEmail" placeholder="Email" aria-label="Email address">
+                <input class="booking__input" type="number" name="guests" id="userGuests" min="1" max="10" step="1" placeholder="Number of rooms" aria-label="Number of guests">
+                <input class="booking__input" type="tel" name="tel" id="userTel" placeholder="Phone number" aria-label="Phone number">
+                <input class="booking__input" type="date" name="dateFirst" id="userDateFirst" placeholder="check-in date" aria-label="check-in date">
+                <input class="booking__input" type="date" name="dateSecond" id="userDateSecond" placeholder="departure date" aria-label="departure date">
+                <button class="booking__btn" type="submit">Book Now</button>
+            </form>
+
+            </section>
+     
+    </div>
+
+    <section class="toRio" id="disc" aria-label="about us">
+
+            <div class="toRio__content">
+                <h2 class="toRio__title">WELCOME TO <span class="toRio__accent accent">RIO</span> LUXURY HOTEL AND SPA
+                </h2>
+
+                <p class="toRio__text text">If you chose to stay with us you will enjoy modern home comforts in a traditional setting. Whether you are looking for a short weekend break or a longer holiday, we offer a range of packages for the best price. Enjoy your vacancy and we
+                    do the rest...</p>
+            </div>
+
+            <div class="toRio__gallery">
+                <div class="toRio__img toRio__img--first">
+                    <img class="toRio__image" src="../img/first-img.jpg" alt="Rio resort pool view" title="Rio resort pool view">
+                </div>
+                <div class="toRio__img toRio__img--second">
+                    <img class="toRio__image" src="../img/second-img.jpg" alt="Sea view" title="Sea view">
+                </div>
+                <div class="toRio__img toRio__img--third">
+                    <img class="toRio__image" src="../img/third-img.jpg" alt="Sunset over the sea" title="Sunset over the sea">
+                </div>
+            </div>
+
+    </section>
+
+
+    <section class="explore" id="exp" aria-label="apartments block">
+
+            <span class="explore__accent accent">EXPLORE</span>
+            <h3 class="explore__title">OUR ROOMS</h3>
+
+            <article class="explore__apartment explore__apartment--single" id="snglSt">
+                <div class="explore__apartment-img">
+                    <img class="explore__apartment-image" src="../img/singleSuite.jpg" alt="single suite" title="single suite">
+                </div>
+                <h4 class="explore__apartment-title">SINGLE SUITE</h4>
+                <p class="explore__apartment-text text">Experience the perfect blend of contemporary comfort and urban sophistication in our Deluxe King Room. Designed for both business travelers and leisure guests, this 32&#8208;square&#8208;meter sanctuary offers stunning panoramic views
+                    <a class="explore__apartment-link" href="indexSingle.html" title="link to single suite" target="__blank"> read more...</a>
+                </p>
+                <div class="explore__apartment-containerBtn">
+                    <button class="explore__apartment-btn" type="button">BOOK
+                        NOW</button>
+                    <span class="explore__apartment-price">78.5&dollar;</span>
+                </div>
+            </article>
+
+            <article class="explore__apartment explore__apartment--romantic" id="rmntcSt">
+                <div class="explore__apartment-img">
+                    <img class="explore__apartment-image" src="../img/romanticSuite.jpg" alt="romantic suite" title="romantic suite">
+                </div>
+                <h4 class="explore__apartment-title">ROMANTIC SUITE</h4>
+                <p class="explore__apartment-text text">This room features one double bed, a private bathroom, and a flat&#8208;screen TV. Enjoy free Wi&#8208;Fi, air conditioning, and a work desk. Perfect for 2 guests. Some rooms include a small seating area by the window.
+                    <a class="explore__apartment-link" href="indexRomantic.html" title="link to romantic suite" target="_blank"> read
+                        more...</a>
+                </p>
+                <div class="explore__apartment-containerBtn">
+                    <button class="explore__apartment-btn" type="button">BOOK
+                        NOW</button>
+                    <span class="explore__apartment-price">68.5&dollar;</span>
+                </div>
+            </article>
+
+            <article class="explore__apartment explore__apartment--family" id="fmlRm">
+                <div class="explore__apartment-img">
+                    <img class="explore__apartment-image" src="../img/familyRoom.jpg" alt="family room" title="family room">
+                </div>
+                <h4 class="explore__apartment-title">FAMILY ROOM</h4>
+                <p class="explore__apartment-text text">Experience the ultimate family getaway in our spacious suite, offering separate sleeping areas and a shared living space for quality time together.<a class="explore__apartment-link" href="indexFamily.html" title="link to family room" target="_blank"> read more...</a></p>
+                <div class="explore__apartment-containerBtn">
+                    <button class="explore__apartment-btn" type="button">BOOK
+                        NOW</button>
+                    <span class="explore__apartment-price">96.5&dollar;</span>
+                </div>
+            </article>
+
+            <article class="explore__apartment explore__apartment--premium" id="prmSt">
+                <div class="explore__apartment-img">
+                    <img class="explore__apartment-image" src="../img/premiumSuite.jpg" alt="premium suite" title="premium suite">
+                </div>
+                <h4 class="explore__apartment-title">PREMIUM SUITE</h4>
+                <p class="explore__apartment-text text">Step into a world of refined elegance with our Premium Room, designed for guests who appreciate extra space and thoughtful details. Perfect for both business and leisure travelers seeking a higher level of comfort.
+                    <a class="explore__apartment-link" href="indexPremium.html" title="link to premium suite" target="__blank">read more...</a>
+                </p>
+                <div class="explore__apartment-containerBtn">
+                    <button class="explore__apartment-btn" type="button">BOOK
+                        NOW</button>
+                    <span class="explore__apartment-price">148.5&dollar;</span>
+                </div>
+            </article>
+
+    </section>
+
+
+    <section class="enjoy" id="services" aria-label="block about enjoy">
+
+            <div class="enjoy__left">
+                <span class="enjoy__accent accent">ENJOY</span>
+                <h3 class="enjoy__title">OUR SERVICES</h3>
+                <article class="enjoy__block enjoy__block--spa">
+                    <h5 class="enjoy__block-title">SPA</h5>
+                    <p class="enjoy__block-text text">Escape the everyday and step into a sanctuary of serenity at Luxury Hotel Spa. Designed to harmonize body, mind, and soul, our spa offers a holistic wellness experience using premium natural products and state&#8208;of&#8208;the&#8208;art
+                        facilities.
+                    </p>
+                </article>
+
+                <article class="enjoy__block enjoy__block--massage">
+                    <h5 class="enjoy__block-title">MASSAGE</h5>
+                    <p class="enjoy__block-text text">Indulge in a relaxing or therapeutic massage by our certified therapists. Each treatment uses natural oils and warm aromatic compresses in a calm, softly lit atmosphere.
+                    </p>
+                </article>
+
+                <article class="enjoy__block enjoy__block--pool">
+                    <h5 class="enjoy__block-title">POOL</h5>
+                    <p class="enjoy__block-text text">Escape the heat or simply unwind in our stunning outdoor infinity pool, overlooking breathtaking panoramic views. Whether you want to swim laps, cool off after a day of exploration, or lounge by the water with a refreshing cocktail,
+                        our pool area is your personal oasis.</p>
+                </article>
+
+                <article class="enjoy__block enjoy__block--music">
+                    <h5 class="enjoy__block-title">MUSIC</h5>
+                    <p class="enjoy__block-text text">At Luxury Hotel, we believe that music is not just background noise &#8211; it’s an essential part of your journey. From the moment you step into our lobby, carefully curated melodies set the mood for relaxation, romance, and rejuvenation.</p>
+                </article>
+
+                <article class="enjoy__block enjoy__block--restaurant">
+                    <h5 class="enjoy__block-title">RESTAURANT</h5>
+                    <p class="enjoy__block-text text">Welcome to our Restaurant, the heart of our hotel's culinary experience. Open daily from early morning until late evening, our all&#8208;day dining restaurant offers a warm, inviting atmosphere for hotel guests and outside visitors
+                        alike.
+                    </p>
+                </article>
+
+                <article class="enjoy__block enjoy__block--water-skiing">
+                    <h5 class="enjoy__block-title">WATER SKIING</h5>
+                    <p class="enjoy__block-text text">Feel the rush of adrenaline as you glide across crystal&#8208;clear waters. At Luxury Hotel, we offer professional water skiing experiences for both beginners and experienced skiers.
+                    </p>
+                </article>
+            </div>
+
+            <div class="enjoy__img">
+                <img class="enjoy__image" src="../img/swans.jpg" alt="two swans" title="two swans">
+            </div>
+
+    </section>
+
+
+    <section class="facilities" id="facilitiesLink" aria-label="block about our facilities">
+
+            <div class="facilities__img facilities__img--first ">
+                <img class="facilities__image" src="../img/sea-view.jpg" alt="sea the view" title="sea the view">
+            </div>
+
+            <div class="facilities__right">
+                <span class="facilities__accent accent">HAPPY
+                    WITH</span>
+                <h3 class="facilities__title">OUR FACILITIES</h3>
+                <p class="facilities__text text">Happy with OUR facilities. You will be happy with our facilities from the moment you arrive. We offer a fully equipped fitness center, outdoor pool with sun loungers, steam room, complimentary high&#8208;speed internet, free parking, and
+                    an on&#8208;site restaurant serving local and international dishes. Whether you are traveling for business or leisure, our facilities are designed to exceed your expectations.</p>
+                <div class="facilities__line"></div>
+                <div class="facilities__img facilities__img--second">
+                    <img class="facilities__image" src="../img/couple.jpg" alt="a loving couple" title="a loving couple">
+                </div>
+            </div>
+
+    </section>
+
+
+    <section class="attraction" id="attractionLink" aria-label="block about our attraction">
+
+            <span class="attraction__accent accent">RELAX WITH</span>
+            <h3 class="attraction__title">OUR ATTRACTIONS</h3>
+            <p class="attraction__text text">Relax with our attractions. Whether it's the swimming pool, the wellness center, or the rooftop lounge with panoramic views &#8211; every attraction at our hotel is designed for your ultimate relaxation.
+            </p>
+
+            <div class="attraction__slider">
+                <div class="attraction__slider-wrapper">
+                    <article class="attraction__block attraction__block--yoga">
+                        <div class="attraction__block-content">
+                        <h4 class="attraction__block-title">YOGA RELAX
+                        </h4>
+                        <p class="attraction__block-text text">Start your morning with peace and mindfulness. We offer daily yoga sessions suitable for all levels &#8211; from beginners to advanced practitioners. Our experienced instructors guide you through gentle stretches, breathing techniques,
+                            and meditation in a serene environment.</p>
+                        </div>
+                        <div class="attraction__block-img">
+                            <img class="attraction__block-image" src="../img/yoga.jpg" alt="yoga" title="yoga">
+                        </div>
+                    </article>
+
+                    <article class="attraction__block attraction__block--beach">
+                        <div class="attraction__block-content">
+                        <h4 class="attraction__block-title">BEACH GAMES
+                        </h4>
+                        <p class="attraction__block-text text">Make the most of your beach vacation with our exciting beach games. Whether you're traveling with family, friends, or as a couple, our daily beach activities bring energy, laughter, and friendly competition to the shore.</p>
+                        </div>
+                        <div class="attraction__block-img">
+                            <img class="attraction__block-image" src="../img/beachGames.jpg" alt="beach games" title="beach games">
+                        </div>
+                    </article>
+
+                    <article class="attraction__block attraction__block--places">
+                        <div class="attraction__block-content">
+                        <h4 class="attraction__block-title">VISIT PLACES
+                        </h4>
+                        <p class="attraction__block-text text">Discover the best local attractions just steps from our hotel. Museums, parks, beaches, shopping malls, and historic sites. Ask our reception for maps and recommendations.
+                        </p>
+                        <div class="attraction__block-content">
+                        <div class="attraction__block-img">
+                            <img class="attraction__block-image" src="../img/visitPlaces.jpg" alt="sea" title="sea">
+                        </div>
+                        </div>
+                    </article>
+
+                    <article class="attraction__block attraction__block--swim">
+                        <div class="attraction__block-content">
+                        <h4 class="attraction__block-title">LEARN TO SWIM
+                        </h4>
+                        <p class="attraction__block-text text">Make your vacation unforgettable by learning how to swim in our safe and supervised hotel pool. Whether you're a beginner adult or a parent wanting your child to gain confidence in the water, our certified instructors are here
+                            to help.
+                        </p>
+                        </div>
+                        <div class="attraction__block-img">
+                            <img class="attraction__block-image" src="../img/learnSwim.jpg" alt="swimming pool" title="swimming pool">
+                        </div>
+                    </article>
+                </div>
+
+                <div class="attraction__slider-buttons">
+                    <button class="attraction__slider-btn attraction__slider-btn--prev" title="prev">&#60;</button>
+                    <button class="attraction__slider-btn attraction__slider-btn--next" title="next">&#62;</button>
+                </div>
+            </div>
+
+    </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__block-logo-menu">
+        <a class="footer__logotype logotype" href="index.html" title="link to main page">
+            <img src="../img/logo.png" alt="logotype Luxury Hotel" width="170px" height="67px">
+        </a>
+
+       <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="../html/index.html">HOME</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#exp">DISCOVER</a>
+                    </li>
+                    <li class="menu__item menu__item--has-dropdown">
+                        <a class="menu__link" href="#exp">ROOMS</a>
+                        <ul class="menu__dropdown-list">
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="indexSingle.html">single suite</a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="indexRomantic.html">romantic
+                                    suite</a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="indexFamily.html">family room</a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="indexPremium.html">premium suite</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#services">SERVICES</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#facilitiesLink">FACILITIES</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#attractionLink">ATTRACTION</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#contacts">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+ 
+        <div class="footer__block-title-contacts">
+        <h2 class="footer__title">Get In Touch</h2>
+        <div class="footer__contact" id="contacts">
+            <a class="footer__contact-item footer__contact-item--tel" href="tel:+11234567890" title="phone">+11234567890</a>
+            <a class="footer__contact-item footer__contact-item--email" href="mailto:info@yourhotel.com" title="email">info@yourhotel.com</a>
+            <a class="footer__contact-item footer__contact-item--local" href="https://yandex.by/maps/-/CPvZrL93" title="local">Park
+                Avenue 432, New York, NY,
+                10029, United States of America</a>
+        </div>
+        
+        
+        <div class="footer__social-link">
+            <a class="footer__social-item footer__social-item--i" href="https://www.instagram.com/hotel_usa_luxury?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" title="link to instagram" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a class="footer__social-item  footer__social-item--vk" href="https://vk.com/rixos.hotels" title="link to vk" target="_blank"><i
+                    class="fa-brands fa-vk"></i>
+                </a>
+            <a class="footer__social-item footer__social-item--f" href="https://www.facebook.com/luxuryhotelassociation/" title="link to facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        </div>
+       
+    </footer>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>
