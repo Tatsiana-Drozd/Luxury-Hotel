@@ -917,6 +917,7 @@ h3 {
 }
 
 .footer__contact-item {
+  text-align: center;
   color: #0a0a0a;
   font-weight: 700;
   text-decoration: none;

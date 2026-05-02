@@ -1,0 +1,29 @@
+@mixin style-a {
+  color: #F3F7EA;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@mixin style-a-hover {
+  color: rgba(248, 189, 11, 0.851);
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(0, 0, 58, 0.9);
+}
+
+@mixin style-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin style-link-hover {
+  color: rgba(248, 189, 11, 0.851);
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(0, 0, 58, 0.9);
+}
+@mixin style-link-hover-inp-sel {
+  border-color: rgb(165, 226, 33);
+  box-shadow: 0 0 10px rgba(0, 0, 32, 0.8);
+  transition: all linear 0.5s;
+  outline: none;
+}
